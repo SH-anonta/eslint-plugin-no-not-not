@@ -1,6 +1,7 @@
 # eslint-plugin-no-not-not
 
-Don&#39;t allow using double not operator for converting a value to boolean
+Don&#39;t allow using double not operator for converting a value to boolean.
+E.g. `let isXZero = !!x;`. The double not operator is not very good in terms of readability. The suggested way to is to use the boolean constructor E.g. `let isXZero = Boolean(x);`  
 
 ## Installation
 
@@ -42,7 +43,7 @@ Then configure the rules you want to use under the rules section.
 
 ## Supported Rules
 
-* Fill in provided rules here
+* [no-not-not](/docs/rules/no-not-not.md)
 
 
 
